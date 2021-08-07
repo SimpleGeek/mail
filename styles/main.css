@@ -1,0 +1,77 @@
+/* Begin custom color scheme definition */
+
+:root {
+    --bg-color: #706C61;
+    --alt-bg-color: #928E82;
+    --primary-color: #4D4C46;
+    --secondary-color: #2A2B2A;
+    --hover-color: #B4B0A2;
+    --font-color: #F8F4E3;
+    --shadow-color: rgba(0, 0, 0, 0.849);
+}
+
+/* End custom color scheme definition */
+
+/* Begin structure element styling */
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: space-between;
+    background-color: var(--alt-bg-color);
+    height: 660px;
+    color: var(--font-color);
+}
+
+.nav-container {
+    height: 100px;
+    background-color: var(--bg-color);
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: stretch;
+}
+
+.main-container {
+    height: 550px;
+    background-color: var(--bg-color);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.subsection {
+    box-shadow: 2px 2px 3px var(--shadow-color);
+    border-radius: 6px 6px 6px 6px;
+}
+
+.email-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+    width: 400px;
+    margin: 8px;
+}
+
+.email-panel {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--secondary-color);
+    width: 790px;
+    margin: 8px;
+}
+
+/* End structure element styling */
+
+/* Begin utility style classes */
+
+.hidden {
+    display: none;
+}
+
+/* End utility style classes */

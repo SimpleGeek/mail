@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="styles/main.css">
+        <title>Mail</title>
+    </head>
+    <body>
+        <nav class="nav-container subsection">
+            <!-- Contains nav/menu options like send and delete -->
+        </nav>
+        <main class="main-container subsection">
+            <div class="email-list">
+                <!-- This element contains the list of emails -->
+            </div>
+
+            <div class="email-panel">
+                <!-- This element contains the reading/editing panel -->
+                <h3 id="no-email-msg">Select item to read</h3>
+                <h3 id="test" class="hidden">This is a test message</h3>
+                <button id="myButton">Click this button...</button>
+            </div>
+        </main>
+        
+        <!-- Begin external script imports -->
+        <script>
+            require('./scripts/display-controller');
+        </script>
+        <!-- End external script imports -->
+    </body>
+</html>

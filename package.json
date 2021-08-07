@@ -1,0 +1,15 @@
+{
+  "name": "mail",
+  "version": "0.0.1",
+  "description": "Email client",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "author": "SimpleGeek",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^13.1.7"
+  }
+}
