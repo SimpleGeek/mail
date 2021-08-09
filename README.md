@@ -2,9 +2,7 @@
 
 ## Overview
 
-It's all in the title.  This is a simple mail client, built with electron.
-At this point in time, it does effectively nothing.  My goal is to have it
-interact with my IMAP server, and actually provide basic view-send-reply-forward-delete functionality.
+This is no longer being developed, but is really here to be a reference on a basic electron project.
 
 ## Development Tips/Reminders
 I'm bad at JS, so here are my reminders:
